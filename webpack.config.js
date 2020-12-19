@@ -5,6 +5,6 @@ module.exports = {
     entry: "./src/index.js", // string | object | array
     output: {
         path: path.resolve(__dirname, "dist"), // string (default)
-        filename: "[name].[contenthash].js"// string (default)
+        filename: "[name].[contenthash].js"// string (default) hash:便于添加缓存
     }
 }
