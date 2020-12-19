@@ -4,6 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     mode: "development", // "production" | "development" | "none"
+    devtool: 'inline-source-map',
+    devServer: {
+        contentBase: './dist'
+    },
     entry: "./src/index.js", // string | object | array
     output: {
         path: path.resolve(__dirname, "dist"), // string (default)
