@@ -1,3 +1,3 @@
 import './x'
-import './style.css'
-import './y.css'
+import './style.scss'
+import './y.scss'

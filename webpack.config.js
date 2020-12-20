@@ -8,6 +8,7 @@ module.exports = {
     mode: "development",
     module: {
         rules: [
+            ...base.module.rules,
             {
                 test: /\.css$/, //css-loader读所有以.css结尾的css文件到js
                 use: ['style-loader', 'css-loader']

@@ -23,6 +23,7 @@ module.exports = {
     ],
     module: {
         rules: [
+            ...base.module.rules,
             {
                 test: /\.css$/, //css-loader读所有以.css结尾的css文件到js
                 use: [  //css抽成文件，再引入到html
