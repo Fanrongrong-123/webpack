@@ -1,4 +1,3 @@
-import xxx from './x'
-import style from './style.css'
-console.log('xxx')
-console.log(style.toString())
+import './x'
+import './style.css'
+import './y.css'
