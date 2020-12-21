@@ -17,6 +17,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(png|svg|jpg|gif)$/,
+                use: ["file-loader"]
+            },
+            {
                 test: /\.styl$/,
                 use: [{
                     loader: "style-loader" // creates style nodes from JS strings
