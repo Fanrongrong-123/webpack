@@ -24,4 +24,5 @@ button.onclick = () => {
     }, () => {
         console.log('模块加载错误')
     })
+    button.onclick = () => { '' }
 }
